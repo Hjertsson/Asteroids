@@ -14,6 +14,11 @@ def main():
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT),pygame.RESIZABLE)
 
     clock = pygame.time.Clock()
+    log_state()
+    log_event("Starting Asteroids")
+    print("Starting Asteroids")
+    print("Screen width: 1280")
+    print("Screen height: 720")
 
     updatable = pygame.sprite.Group()
     drawable = pygame.sprite.Group()
